@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A71A4DC22E1A749300151097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71A4DA82E1A749200151097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71A4DAF2E1A749200151097;
+			remoteInfo = "dodo-do";
+		};
+		A71A4DCC2E1A749300151097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A71A4DA82E1A749200151097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71A4DAF2E1A749200151097;
+			remoteInfo = "dodo-do";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A71A4DB02E1A749200151097 /* dodo-do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dodo-do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71A4DC12E1A749300151097 /* dodo-doTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dodo-doTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71A4DCB2E1A749300151097 /* dodo-doUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dodo-doUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A71A4DB22E1A749200151097 /* dodo-do */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "dodo-do";
+			sourceTree = "<group>";
+		};
+		A71A4DC42E1A749300151097 /* dodo-doTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "dodo-doTests";
+			sourceTree = "<group>";
+		};
+		A71A4DCE2E1A749300151097 /* dodo-doUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "dodo-doUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A71A4DAD2E1A749200151097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71A4DBE2E1A749300151097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71A4DC82E1A749300151097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A71A4DA72E1A749200151097 = {
+			isa = PBXGroup;
+			children = (
+				A71A4DB22E1A749200151097 /* dodo-do */,
+				A71A4DC42E1A749300151097 /* dodo-doTests */,
+				A71A4DCE2E1A749300151097 /* dodo-doUITests */,
+				A71A4DB12E1A749200151097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A71A4DB12E1A749200151097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A71A4DB02E1A749200151097 /* dodo-do.app */,
+				A71A4DC12E1A749300151097 /* dodo-doTests.xctest */,
+				A71A4DCB2E1A749300151097 /* dodo-doUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A71A4DAF2E1A749200151097 /* dodo-do */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71A4DD52E1A749300151097 /* Build configuration list for PBXNativeTarget "dodo-do" */;
+			buildPhases = (
+				A71A4DAC2E1A749200151097 /* Sources */,
+				A71A4DAD2E1A749200151097 /* Frameworks */,
+				A71A4DAE2E1A749200151097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A71A4DB22E1A749200151097 /* dodo-do */,
+			);
+			name = "dodo-do";
+			packageProductDependencies = (
+			);
+			productName = "dodo-do";
+			productReference = A71A4DB02E1A749200151097 /* dodo-do.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A71A4DC02E1A749300151097 /* dodo-doTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71A4DD82E1A749300151097 /* Build configuration list for PBXNativeTarget "dodo-doTests" */;
+			buildPhases = (
+				A71A4DBD2E1A749300151097 /* Sources */,
+				A71A4DBE2E1A749300151097 /* Frameworks */,
+				A71A4DBF2E1A749300151097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71A4DC32E1A749300151097 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A71A4DC42E1A749300151097 /* dodo-doTests */,
+			);
+			name = "dodo-doTests";
+			packageProductDependencies = (
+			);
+			productName = "dodo-doTests";
+			productReference = A71A4DC12E1A749300151097 /* dodo-doTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A71A4DCA2E1A749300151097 /* dodo-doUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71A4DDB2E1A749300151097 /* Build configuration list for PBXNativeTarget "dodo-doUITests" */;
+			buildPhases = (
+				A71A4DC72E1A749300151097 /* Sources */,
+				A71A4DC82E1A749300151097 /* Frameworks */,
+				A71A4DC92E1A749300151097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71A4DCD2E1A749300151097 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A71A4DCE2E1A749300151097 /* dodo-doUITests */,
+			);
+			name = "dodo-doUITests";
+			packageProductDependencies = (
+			);
+			productName = "dodo-doUITests";
+			productReference = A71A4DCB2E1A749300151097 /* dodo-doUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A71A4DA82E1A749200151097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A71A4DAF2E1A749200151097 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A71A4DC02E1A749300151097 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A71A4DAF2E1A749200151097;
+					};
+					A71A4DCA2E1A749300151097 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A71A4DAF2E1A749200151097;
+					};
+				};
+			};
+			buildConfigurationList = A71A4DAB2E1A749200151097 /* Build configuration list for PBXProject "dodo-do" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A71A4DA72E1A749200151097;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A71A4DB12E1A749200151097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A71A4DAF2E1A749200151097 /* dodo-do */,
+				A71A4DC02E1A749300151097 /* dodo-doTests */,
+				A71A4DCA2E1A749300151097 /* dodo-doUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A71A4DAE2E1A749200151097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71A4DBF2E1A749300151097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71A4DC92E1A749300151097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A71A4DAC2E1A749200151097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71A4DBD2E1A749300151097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71A4DC72E1A749300151097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A71A4DC32E1A749300151097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A71A4DAF2E1A749200151097 /* dodo-do */;
+			targetProxy = A71A4DC22E1A749300151097 /* PBXContainerItemProxy */;
+		};
+		A71A4DCD2E1A749300151097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A71A4DAF2E1A749200151097 /* dodo-do */;
+			targetProxy = A71A4DCC2E1A749300151097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A71A4DD32E1A749300151097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A71A4DD42E1A749300151097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A71A4DD62E1A749300151097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "dodo-do/dodo_do.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dodo-do/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuiti.dodo-do";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A71A4DD72E1A749300151097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "dodo-do/dodo_do.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dodo-do/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuiti.dodo-do";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A71A4DD92E1A749300151097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuiti.dodo-doTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dodo-do.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dodo-do";
+			};
+			name = Debug;
+		};
+		A71A4DDA2E1A749300151097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuiti.dodo-doTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dodo-do.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dodo-do";
+			};
+			name = Release;
+		};
+		A71A4DDC2E1A749300151097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuiti.dodo-doUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "dodo-do";
+			};
+			name = Debug;
+		};
+		A71A4DDD2E1A749300151097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zuiti.dodo-doUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "dodo-do";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A71A4DAB2E1A749200151097 /* Build configuration list for PBXProject "dodo-do" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71A4DD32E1A749300151097 /* Debug */,
+				A71A4DD42E1A749300151097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71A4DD52E1A749300151097 /* Build configuration list for PBXNativeTarget "dodo-do" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71A4DD62E1A749300151097 /* Debug */,
+				A71A4DD72E1A749300151097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71A4DD82E1A749300151097 /* Build configuration list for PBXNativeTarget "dodo-doTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71A4DD92E1A749300151097 /* Debug */,
+				A71A4DDA2E1A749300151097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71A4DDB2E1A749300151097 /* Build configuration list for PBXNativeTarget "dodo-doUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71A4DDC2E1A749300151097 /* Debug */,
+				A71A4DDD2E1A749300151097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A71A4DA82E1A749200151097 /* Project object */;
+}
