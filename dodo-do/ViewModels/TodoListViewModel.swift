@@ -79,6 +79,10 @@ class TodoListViewModel: ObservableObject {
             todos[index].isCompleted.toggle()
         }
     }
+
+    func clearAllCompleted() {
+        todos.removeAll { $0.isCompleted }
+    }
     
     private func loadInitialData() {
         // Sample data based on the design

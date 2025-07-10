@@ -31,6 +31,9 @@ struct TodoListView: View {
                 }
             }
             .frame(maxWidth: .infinity)
+            .background(.white)
+            .cornerRadius(8)
+            .scrollIndicators(.never)
         }
         .padding()
         .frame(width: 450, height: 600)
@@ -54,7 +57,7 @@ private struct HeaderView: View {
             Button("忙起来(新todo)", action: onAdd)
                 .buttonStyle(.borderedProminent)
                 .tint(.primary)
-        }
+        }.alignmentGuide(.bottom, computeValue: { _ in 0 })
     }
 }
 
@@ -106,18 +109,40 @@ private struct TaskListSection: View {
     @ObservedObject var viewModel: TodoListViewModel
 
     var body: some View {
-        VStack(alignment: .leading) {
-            Text(title)
-                .font(.title2)
-                .fontWeight(.semibold)
-                .padding(.bottom, 5)
-            
-            ForEach(tasks) { todo in
-                TodoRowView(viewModel: viewModel, todo: todo)
-                Divider()
+        if (viewModel.filter != .completed) {
+            VStack(alignment: .leading) {
+                Text(title)
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                    .padding(.bottom, 5)
+                
+                ForEach(tasks) { todo in
+                    TodoRowView(viewModel: viewModel, todo: todo)
+                    Divider()
+                }
             }
+            .padding(.all)
         }
-        .padding(.top)
+        else {
+            VStack(alignment: .leading) {
+                Text(title)
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                    .padding(.bottom, 5)
+                
+                ForEach(tasks) { todo in
+                    TodoRowView(viewModel: viewModel, todo: todo)
+                    Divider()
+                }
+                Button {
+                    viewModel.clearAllCompleted()
+                } label: {
+                    Text("clear")
+                }
+
+            }
+            .padding(.all)
+        }
     }
 }
 
